@@ -67,6 +67,9 @@ export const Toolbar = () => {
         </Link>
       </Stack>
       <Stack grow />
+      <Link href="articles" passHref>
+        <ToolbarButton as="a">Articles</ToolbarButton>
+      </Link>
       <Menu inline>
         <MenuTrigger>
           <ToolbarButton>
