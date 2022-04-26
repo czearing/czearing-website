@@ -16,20 +16,20 @@ const Home: NextPage = () => {
   return (
     !isLoading && (
       <>
-        <Link href={data.items[0].link}>
-          <Card style={{ maxWidth: "450px" }} onClick={() => null}>
-            <Body>
-              <TimeAgo date={data.items[0].pubDate} />
-            </Body>
-            <Header3 weight="bold">{data.items[0].title}</Header3>
-            <CardMedia>
-              <img
-                src={data.items[0].thumbnail}
-                style={{ objectFit: "cover" }}
-              />
-            </CardMedia>
-          </Card>
-        </Link>
+        {/* <Link href={data.items[0].link} passHref> */}
+        <Card
+          style={{ maxWidth: "450px", color: "inherit" }}
+          onClick={() => null}
+        >
+          <Body>
+            <TimeAgo date={data.items[0].pubDate} />
+          </Body>
+          <Header3 weight="bold">{data.items[0].title}</Header3>
+          <CardMedia>
+            <img src={data.items[0].thumbnail} style={{ objectFit: "cover" }} />
+          </CardMedia>
+        </Card>
+        {/* </Link> */}
       </>
     )
   );
