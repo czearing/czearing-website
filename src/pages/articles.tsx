@@ -25,7 +25,12 @@ const Articles: NextPage = () => {
             </Body>
             <Header3 weight="bold">{item.title}</Header3>
             <CardMedia>
-              <Image src={item.thumbnail} height="220px" width="450px" />
+              <Image
+                src={item.thumbnail}
+                height="220px"
+                width="450px"
+                layout="fill"
+              />
             </CardMedia>
           </Card>
         </Link>
