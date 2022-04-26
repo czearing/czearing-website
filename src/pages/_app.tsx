@@ -6,6 +6,7 @@ import Head from "next/head";
 import { SSRProvider } from "@fluentui/react-utilities";
 import { RendererProvider, createDOMRenderer } from "@griffel/react";
 import { AppProvider } from "../context";
+import { AppContainer } from "../components";
 
 export default function App(props: AppProps & { renderer: any }) {
   const { Component, pageProps, renderer } = props;
@@ -63,7 +64,9 @@ export default function App(props: AppProps & { renderer: any }) {
           <AppProvider value={{ setTheme, findTheme }}>
             {isMounted && (
               <Provider theme={theme}>
-                <Component {...pageProps} />
+                <AppContainer>
+                  <Component {...pageProps} />
+                </AppContainer>
               </Provider>
             )}
           </AppProvider>
