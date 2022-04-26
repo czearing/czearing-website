@@ -11,8 +11,8 @@ import { Hydrate } from "react-query/hydration";
 import { queryClient } from "../clients/react-query";
 import { AppContainer } from "../components";
 
-export default function App(props: AppProps & { renderer: any }) {
-  const { Component, pageProps, renderer } = props;
+export default function App(props: AppProps) {
+  const { Component, pageProps } = props as any;
   const isDarkTheme = useThemeDetector();
 
   const [isMounted, setIsMounted] = React.useState(false);
@@ -63,7 +63,7 @@ export default function App(props: AppProps & { renderer: any }) {
             margin: 0px;
           }
         `}</style>
-        <RendererProvider renderer={renderer || createDOMRenderer()}>
+        <RendererProvider renderer={pageProps.renderer || createDOMRenderer()}>
           <SSRProvider>
             <AppProvider value={{ setTheme, findTheme }}>
               {isMounted && (

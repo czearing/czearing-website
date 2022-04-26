@@ -25,7 +25,7 @@ const Articles: NextPage = () => {
             </Body>
             <Header3 weight="bold">{item.title}</Header3>
             <CardMedia>
-              <img src={item.thumbnail} style={{ objectFit: "cover" }} />
+              <Image src={item.thumbnail} height="220px" width="450px" />
             </CardMedia>
           </Card>
         </Link>

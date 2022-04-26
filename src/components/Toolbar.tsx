@@ -10,7 +10,6 @@ import {
   MenuList,
   MenuItemRadio,
   createIcon,
-  Link as LinkComponent,
 } from "@cebus/react-components";
 import Link from "next/link";
 import type { MenuProps } from "@cebus/react-components";
