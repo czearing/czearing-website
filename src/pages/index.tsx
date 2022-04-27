@@ -162,8 +162,34 @@ const Home: NextPage = () => {
           </Stack>
         </Card>
       </Stack>
-      <Divider />
-      <Stack horizontalAlignment="center" vertical grow></Stack>
+      {/* <Divider />
+      <Stack horizontalAlignment="center" vertical grow>
+        <Header1>My Projects</Header1>
+        <Stack>
+          <Card onClick={() => null}>
+            <CardMedia>
+              <Header1
+                color="white"
+                style={{ position: "absolute", zIndex: "1", padding: "10px" }}
+              >
+                Cebus
+              </Header1>
+              <Image src="/image/cebus.svg" width="250px" height="250px" />
+            </CardMedia>
+          </Card>
+          <Card onClick={() => null}>
+            <CardMedia>
+              <Header1
+                color="white"
+                style={{ position: "absolute", zIndex: "1", padding: "10px" }}
+              >
+                Bounty Bay
+              </Header1>
+              <Image src="/image/bountyBay.svg" width="250px" height="250px" />
+            </CardMedia>
+          </Card>
+        </Stack>
+      </Stack> */}
     </>
   );
 };
