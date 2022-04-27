@@ -24,7 +24,7 @@ import {
   YoutubeIcon,
   MediumIcon,
 } from "@cebus/react-components";
-import { makeStyles, mergeClasses, shorthands } from "@griffel/react";
+import { makeStyles } from "@griffel/react";
 import Link from "next/link";
 
 const useStyles = makeStyles({
