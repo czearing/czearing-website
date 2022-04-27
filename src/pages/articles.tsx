@@ -14,6 +14,7 @@ const Articles: NextPage = () => {
   );
 
   const generateMediumArticles = () => {
+    console.log(data.items);
     return (
       !isLoading &&
       !error &&
@@ -25,9 +26,10 @@ const Articles: NextPage = () => {
             </Body>
             <Header3 weight="bold">{item.title}</Header3>
             <CardMedia>
-              <Image src={item.thumbnail} height="220px" width="450px" />
+              <img src={item.thumbnail} height="220px" width="450px" />
             </CardMedia>
           </Card>
+          {categories.tags.map((item: any) => item)}
         </Link>
       ))
     );
