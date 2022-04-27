@@ -24,9 +24,22 @@ import {
   YoutubeIcon,
   MediumIcon,
 } from "@cebus/react-components";
+import { makeStyles, mergeClasses, shorthands } from "@griffel/react";
 import Link from "next/link";
 
+const useStyles = makeStyles({
+  contactLink: {
+    // minWidth: "181px",
+    // width: "182px",
+  },
+  cardContainer: {
+    maxWidth: "500px",
+    height: "calc(100% - 30px)",
+  },
+});
+
 const Home: NextPage = () => {
+  const styles = useStyles();
   const [selectedTab, setSelectedTab] = React.useState("1");
 
   const onTabChange = (ev: any, data: any) => {
@@ -37,14 +50,16 @@ const Home: NextPage = () => {
     <>
       <Display>Hello world</Display>
       <Divider />
+
       <Stack
+        horizontalAlignment="center"
         style={{
           display: "grid",
           width: "100%",
-          gridTemplateColumns: "repeat(auto-fit, minmax(440px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, max-content))",
         }}
       >
-        <Card style={{ minWidth: "300px", height: "300px" }}>
+        <Card className={styles.cardContainer}>
           <CardHeader header={<Header1>About me</Header1>} />
           <Avatar
             name="Caleb Zearing"
@@ -57,10 +72,9 @@ const Home: NextPage = () => {
             music and art in my free time.
           </SubHeadline>
         </Card>
-
-        <Card style={{ height: "300px" }}>
+        <Card style={{ maxWidth: "500px", height: "calc(100% - 30px)" }}>
           <CardHeader header={<Header1>Contact information</Header1>} />
-          <Stack>
+          <Stack wrap={false}>
             <TabList
               selectedValue={selectedTab}
               onTabSelect={onTabChange}
@@ -71,93 +85,128 @@ const Home: NextPage = () => {
               <Tab value="3">Music</Tab>
               <Tab value="4">Tutorials</Tab>
             </TabList>
-            <Stack vertical>
+
+            <Stack vertical wrap={false}>
               {selectedTab === "1" && (
                 <>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <MailIcon />
                     <Body>czearing@outlook.com</Body>
                   </Stack>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <GithubIcon />
                     <Link href="https://github.com/czearing" passHref>
-                      <LinkComponent>czearing</LinkComponent>
+                      <LinkComponent>Github</LinkComponent>
                     </Link>
                   </Stack>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <LinkedinIcon />
                     <Link
                       href="https://www.linkedin.com/in/caleb-zearing/"
                       passHref
                     >
-                      <LinkComponent>caleb-zearing</LinkComponent>
+                      <LinkComponent>Linkedin</LinkComponent>
                     </Link>
                   </Stack>
                 </>
               )}
               {selectedTab === "2" && (
                 <>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <TwitterIcon />
                     <Link href="https://twitter.com/czearing_" passHref>
-                      <LinkComponent>@czearing_</LinkComponent>
+                      <LinkComponent>Twitter</LinkComponent>
                     </Link>
                   </Stack>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <InstagramIcon />
                     <Link
                       href="https://www.instagram.com/calebzmusic/"
                       passHref
                     >
-                      <LinkComponent>calebzmusic</LinkComponent>
+                      <LinkComponent>Instagram</LinkComponent>
                     </Link>
                   </Stack>
                 </>
               )}
               {selectedTab === "3" && (
                 <>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <SoundCloudIcon />
                     <Link href="https://soundcloud.com/caleb_z" passHref>
-                      <LinkComponent>caleb_z</LinkComponent>
+                      <LinkComponent>Soundcloud</LinkComponent>
                     </Link>
                   </Stack>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <SpotifyIcon />
                     <Link
                       href="https://open.spotify.com/artist/564lyz9Wk0PY0XT6P6pnCk?si=FLjgmlIOSDit6HcBw5Feww&nd=1"
                       passHref
                     >
-                      <LinkComponent>CalebZ</LinkComponent>
+                      <LinkComponent>Spotify</LinkComponent>
                     </Link>
                   </Stack>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <ITunesIcon />
                     <Link
                       href="https://music.apple.com/us/artist/calebz/1566040977"
                       passHref
                     >
-                      <LinkComponent>CalebZ</LinkComponent>
+                      <LinkComponent>iTunes</LinkComponent>
                     </Link>
                   </Stack>
                 </>
               )}
               {selectedTab === "4" && (
                 <>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <YoutubeIcon />
                     <Link href="https://www.youtube.com/c/CalebZaudio" passHref>
-                      <LinkComponent>Caleb Z</LinkComponent>
+                      <LinkComponent>Youtube</LinkComponent>
                     </Link>
                   </Stack>
-                  <Stack verticalAlignment="center" style={{ width: "200px" }}>
+                  <Stack
+                    verticalAlignment="center"
+                    className={styles.contactLink}
+                  >
                     <MediumIcon />
                     <Link href="https://medium.com/@czearing" passHref>
-                      <LinkComponent>@czearing</LinkComponent>
+                      <LinkComponent>Medium</LinkComponent>
                     </Link>
                   </Stack>
                 </>
               )}
+              <Stack verticalAlignment="center" style={{ opacity: "0" }}>
+                <MailIcon />
+                <Body>czearing@outlook.com</Body>
+              </Stack>
             </Stack>
           </Stack>
         </Card>
