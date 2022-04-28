@@ -50,7 +50,6 @@ const Home: NextPage = () => {
     <>
       <Display>Hello world</Display>
       <Divider />
-
       <Stack
         horizontalAlignment="center"
         style={{

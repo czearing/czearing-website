@@ -59,6 +59,15 @@ export const Toolbar = () => {
         </Link>
       </Stack>
       <Stack grow />
+      {/* <Link href="music" passHref>
+        <ToolbarButton as="a">Art</ToolbarButton>
+      </Link>
+      <Link href="music" passHref>
+        <ToolbarButton as="a">Music</ToolbarButton>
+      </Link> */}
+      <Link href="videos" passHref>
+        <ToolbarButton as="a">Videos</ToolbarButton>
+      </Link>
       <Link href="articles" passHref>
         <ToolbarButton as="a">Articles</ToolbarButton>
       </Link>

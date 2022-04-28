@@ -32,9 +32,9 @@ const Articles: NextPage = () => {
     return (
       !isLoading &&
       !error &&
-      data.items.map(
+      data?.items?.map(
         (item: any) =>
-          item.title.toLowerCase().includes(inputValue.toLowerCase()) && (
+          item?.title?.toLowerCase().includes(inputValue.toLowerCase()) && (
             <Link href={item.link} passHref>
               <Card style={{ maxWidth: "450px" }} onClick={() => null}>
                 <Body>
@@ -42,7 +42,12 @@ const Articles: NextPage = () => {
                 </Body>
                 <Header3 weight="bold">{item.title}</Header3>
                 <CardMedia>
-                  <Image src={item.thumbnail} height="220px" width="450px" />
+                  <Image
+                    src={item.thumbnail}
+                    height="220px"
+                    width="450px"
+                    objectFit="cover"
+                  />
                 </CardMedia>
                 <Stack>
                   {item.categories.map((category: string) => (
