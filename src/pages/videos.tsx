@@ -49,16 +49,12 @@ const Videos: NextPage = () => {
               href={`http://www.youtube.com/watch?v=${item.id.videoId}`}
               passHref
             >
-              <Stack
-                vertical
-                className={styles.button}
-                horizontalAlignment="center"
-              >
+              <Stack vertical className={styles.button}>
                 <CardMedia>
                   <Image
                     src={item.snippet.thumbnails.high.url}
-                    height="117.5px"
-                    width="210px"
+                    height="130px"
+                    width="250px"
                     objectFit="cover"
                   />
                 </CardMedia>
@@ -95,9 +91,17 @@ const Videos: NextPage = () => {
       />
       <Divider />
 
-      <Stack horizontalAlignment="start" grow>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, max-content))",
+          gridGap: "15px",
+          justifyContent: "center",
+          width: "100%",
+        }}
+      >
         {generateVideos()}
-      </Stack>
+      </div>
     </>
   );
 };
