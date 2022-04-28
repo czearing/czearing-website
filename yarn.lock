@@ -1868,10 +1868,10 @@
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-avatar@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cebus/react-avatar/-/react-avatar-0.0.1.tgz#45f6cb03ae4c76ba6ebed976233a492bd0d3f554"
-  integrity sha512-in4d5QPR0akaBKLm1W662/XZBke29KL3vqmVECBnJr5hiOw8gFyQORh3WxPyrevRjvAY5qS9cKgsk6zBJh0A2w==
+"@cebus/react-avatar@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@cebus/react-avatar/-/react-avatar-0.0.2.tgz#5c59738ae775c1a7139d0be357060bab465d35a6"
+  integrity sha512-spVH23JGFEAtH/wmkGhLx+xvzs2qC4QxounQKnDM/9vPACBzSXgnRynO22lZr65YvZmZ6KrjRK5xZakZIqVz7Q==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@cebus/react-theme-generator" "^0.0.1"
@@ -1880,10 +1880,10 @@
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-button@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@cebus/react-button/-/react-button-0.0.3.tgz#8f34990a777cfe495959aac813436481f6cc8cf8"
-  integrity sha512-1WH2SRLpS4pKrx91uWv8vTcecFb06CT4oyw24BKmy6XBU6cCl9o3ZUwltJAgIf3ZFIasnFX0WsXy020W0IywtA==
+"@cebus/react-button@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@cebus/react-button/-/react-button-0.0.4.tgz#e028e51b1c4490af6f3ec5184a73d447e312ae70"
+  integrity sha512-+qoMytjjnyb3G47btJFrlLTI+6usjWe3LjFN8E9QppxjV4ewkkQJSznSOfC5BAvaK8qPZdp0TuXLTQ1saCnfSQ==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-aria" "9.0.0-rc.5"
@@ -1891,66 +1891,66 @@
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-card@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@cebus/react-card/-/react-card-0.0.4.tgz#c4c421fc6db4fe1ce6e6d2133f509242af87581c"
-  integrity sha512-ZzcHyaDAd5Wi0uuVkoT0DgiW9M6AaBEIDk+DcmhBCjkFnQQK3/sfTLyspcMDJXjgVqT5JeecGPnnq/7SIc+Vvw==
+"@cebus/react-card@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cebus/react-card/-/react-card-0.0.5.tgz#be870f6b44c14faead374cd6868d6fb0fe506684"
+  integrity sha512-ESw/U+aTzimCPC9lwCCVysRkh7FUFDkNdfsLfvfAKQPTSYiGRsVy/zHpqqNymrDsfTbE/iAwetF0ol9GevWZzg==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-tabster" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-carousel@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@cebus/react-carousel/-/react-carousel-0.0.2.tgz#60d38136bbaaddc0f81d8356d21349de750b6476"
-  integrity sha512-XoJWXPrNUGvMnTz6182HLPhMT33bsiTMdYk7yWkjBC/oPhqP1QKoHYRt467kAk59Rq9mjPziJFECnshp4c1c/Q==
+"@cebus/react-carousel@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cebus/react-carousel/-/react-carousel-0.0.3.tgz#e75b7898599b6ad8f647d209309477ed603eb6f9"
+  integrity sha512-tEK+fb7kN7oCYrZ4uGlXpz2aS5wt7jiEOIm6zw6j1EqqBZc8dxFtcHGpPx2RCHW8ft5DUsUzPgeOhCmC7RedPw==
   dependencies:
-    "@cebus/react-icon" "^0.0.2"
+    "@cebus/react-icon" "^0.0.3"
     "@cebus/react-radio" "^0.0.1"
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-checkbox@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@cebus/react-checkbox/-/react-checkbox-0.0.3.tgz#d8da01b1aafea677e9cf3487ca1feb71e7ee394c"
-  integrity sha512-Zz+uX2lp75qiyV94ep9rO3PlfHRKGC/jQzwYMcArbY+RnPnNJbbkatMgUGn3o+N3ortLW3otm8KkhTHKQAdHtg==
+"@cebus/react-checkbox@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@cebus/react-checkbox/-/react-checkbox-0.0.4.tgz#3f9ada38f6736e8914abd1c1877f7609dcc7a66c"
+  integrity sha512-AlxTB2Vf+n9F34lSFq9k0oidcK7lvG6dl0sFcateupGTIrbxf+ZeKES1HXdZr632u7CdwS9nGY5Acxqq14jBdA==
   dependencies:
-    "@cebus/react-icon" "^0.0.2"
+    "@cebus/react-icon" "^0.0.3"
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-tabster" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-components@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@cebus/react-components/-/react-components-0.0.6.tgz#e68b42ecdee30091e4ecdf8f000802163152aafb"
-  integrity sha512-TT9uOi4zmVNxzJfNSBQp0FXpIJNnlnFBDgayJKBM9QFGNxlALFdnWGi1acx2O3zX1yMF9nMMFn7tmFrSEQDyow==
+"@cebus/react-components@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@cebus/react-components/-/react-components-0.0.7.tgz#0af5f66c5479493c2398352efa9234812171aa8f"
+  integrity sha512-+q8K/HzsdjQ8zHGWcZdWZbp0l5cycMdKY90Y80/D5BZZ9CEKJghH4D73UWMO4NfXhs9eWp23+L8PLvY8ILFyMw==
   dependencies:
     "@cebus/react-accordion" "^0.0.1"
-    "@cebus/react-avatar" "^0.0.1"
-    "@cebus/react-button" "^0.0.3"
-    "@cebus/react-card" "^0.0.4"
-    "@cebus/react-carousel" "^0.0.2"
-    "@cebus/react-checkbox" "^0.0.3"
+    "@cebus/react-avatar" "^0.0.2"
+    "@cebus/react-button" "^0.0.4"
+    "@cebus/react-card" "^0.0.5"
+    "@cebus/react-carousel" "^0.0.3"
+    "@cebus/react-checkbox" "^0.0.4"
     "@cebus/react-dialog" "^0.0.1"
-    "@cebus/react-divider" "^0.0.1"
-    "@cebus/react-icon" "^0.0.2"
-    "@cebus/react-input" "^0.0.4"
-    "@cebus/react-label" "^0.0.1"
-    "@cebus/react-layout" "^0.0.1"
-    "@cebus/react-link" "^0.0.1"
-    "@cebus/react-menu" "^0.0.4"
+    "@cebus/react-divider" "^0.0.2"
+    "@cebus/react-icon" "^0.0.3"
+    "@cebus/react-input" "^0.0.5"
+    "@cebus/react-label" "^0.0.2"
+    "@cebus/react-layout" "^0.0.2"
+    "@cebus/react-link" "^0.0.2"
+    "@cebus/react-menu" "^0.0.5"
     "@cebus/react-provider" "^0.0.1"
     "@cebus/react-radio" "^0.0.1"
-    "@cebus/react-switch" "^0.0.2"
-    "@cebus/react-table" "^0.0.4"
+    "@cebus/react-switch" "^0.0.3"
+    "@cebus/react-table" "^0.0.5"
     "@cebus/react-tabs" "^0.0.1"
-    "@cebus/react-text" "^0.0.1"
+    "@cebus/react-text" "^0.0.2"
     "@cebus/react-theme" "^0.0.1"
     "@cebus/react-theme-generator" "^0.0.1"
-    "@cebus/react-toolbar" "^0.0.4"
+    "@cebus/react-toolbar" "^0.0.5"
 
 "@cebus/react-dialog@^0.0.1":
   version "0.0.1"
@@ -1963,73 +1963,73 @@
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-divider@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cebus/react-divider/-/react-divider-0.0.1.tgz#3b4a99ccefed47eda16bd39fc12be28d27b1ce28"
-  integrity sha512-3Dr0ripMEJoA7V2s9GqMG20nQDYUyRtOJEEZunwJH/RhlJu4aYdgb4EIJwPIzgg2sgj6ZYHPQt7iVTVFftmWeA==
+"@cebus/react-divider@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@cebus/react-divider/-/react-divider-0.0.2.tgz#ef415f3142a7a6449097a3bcac2690679f5ada01"
+  integrity sha512-0OoLpeITRnVFUklfdzXOXLYIuNF0MUJCBw4Jm6mUjTMmLtB5UX+FLxCCnxKU4EnKcZUg7/FYItazHhcbFqsF2Q==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-divider" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-icon@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@cebus/react-icon/-/react-icon-0.0.2.tgz#b36c158972d6c49330642d43d59888c9333ff00c"
-  integrity sha512-cWullFyXQZvyqjFSsG52rFdQBtg90bHBGkfM1SKEoylQjgk+DSlsv9QP8foHDNcOlBUmDxHntMbKKxxhSwoDIg==
+"@cebus/react-icon@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cebus/react-icon/-/react-icon-0.0.3.tgz#983bbc022bc52d3ba56c43c59601253c986b07ee"
+  integrity sha512-qLwT4ueKMpEnu62eAZI6gAdVIqH2gTqAtmHylwa1VdP4UQAYUHceIEnPUHow4LS/iJzTADg3ckVt3dfVhWWLSw==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-tabster" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-input@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@cebus/react-input/-/react-input-0.0.4.tgz#60c8dcafc91cf4930f387753705d16a4e2159ee3"
-  integrity sha512-XTx9y85pfv/YE3YdzaH1DMf+0Npl3sOz3rAqi4JririDwd1/DIE15TILV7959S4/XZT/LL7RVtsJIIvXCpH7rw==
+"@cebus/react-input@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cebus/react-input/-/react-input-0.0.5.tgz#7958ef996ae972f63cd0cdd7f55db6cfcf02c426"
+  integrity sha512-QM2DAh4ZHQSdl372R2wRUU/vAJMTdQ8AYic6DYbAXIqwR2PkoCq0ouxtZ1K7QHmnPb/sPPDED+SPDfqcKZuEew==
   dependencies:
-    "@cebus/react-menu" "^0.0.4"
+    "@cebus/react-menu" "^0.0.5"
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-aria" "^9.0.0-rc.5"
     "@fluentui/react-tabster" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-label@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cebus/react-label/-/react-label-0.0.1.tgz#b3b56eae59098e0df5fd001e939dbcbc353c7ee6"
-  integrity sha512-+JNev3XQ4neEGeZOq0E2Inj+5CCKtQucXQ6az0Hsz4bxa2UOAHimxruNrldVeeirbDJ2GQpwsZncdx3dVqU0+w==
+"@cebus/react-label@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@cebus/react-label/-/react-label-0.0.2.tgz#c58ac322c20726e82137941c465bc4ddba140fed"
+  integrity sha512-4kIlvzaS64iJ2nTGeOQIU+pc1ec2zdxC9FpFtIGbi7wnkl4t6PHWtOiYIwRK2uVbVNnQ0bcwVwQ8ODVeK95IeA==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-label" "^9.0.0-beta.9"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-layout@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cebus/react-layout/-/react-layout-0.0.1.tgz#b71ee3901c4f222c26e24acc3048d938e6823418"
-  integrity sha512-6W3LihoSNVHlOix0tdW9Vr5NiBFDEwWz5XOaUZ6/qxg0FqjtC75xUikJCpZxeTFzmGQj8hhl0aBuf4vZGK3ihA==
+"@cebus/react-layout@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@cebus/react-layout/-/react-layout-0.0.2.tgz#8f67c5515bf92cddb7a1b50b60e44836a6749882"
+  integrity sha512-IANpZjbP9si+X1OXP6Ncnolbr6zm48iJNSrNtWyB/jICmMFd/2Ts0EW08HMBU2tNuOSIY9fOZikdFoAH6RZ4Xw==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-link@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cebus/react-link/-/react-link-0.0.1.tgz#1471e5facc97e7b410b52346599c76c0967d42f8"
-  integrity sha512-EN4A3VNHY6gQkp3apxyPf7yXYmesbCqLG2yJPBqcME/b/LY5SVcj2cNKNEKs6JovhBL/eyVQ1za6ioDYNDU2mg==
+"@cebus/react-link@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@cebus/react-link/-/react-link-0.0.2.tgz#697347e0a54612656f4f06a16863a16bc35c864d"
+  integrity sha512-qFrV0H6Os3PbLgMjMlzXBAzo36lhfXW41gvlkOBjn18QudUThlWJCkYdOTHeLufrLwxbhfr+iZODPlEER586wg==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-link" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-menu@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@cebus/react-menu/-/react-menu-0.0.4.tgz#655417c9037e5776c10f8c8a774200e92ece59a3"
-  integrity sha512-3ckp9C8tmSSAHhMOengfp0DhdjzZ3xpvPKX4AXxoIs95Qy3dycnlOIrZr9Nw9SXZQ01TWLZzUReD5Cg68FVqRQ==
+"@cebus/react-menu@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cebus/react-menu/-/react-menu-0.0.5.tgz#8f25126a91fdaed71df910546f394c359adb6d4c"
+  integrity sha512-jvdaLuNQMOVjpvXt3NWIPIyVYqKLRVp+M4lJtayP35Lt6EkHdCU6r65P5Iu8FMrsbeT47NL/OWBatbGdgfDhww==
   dependencies:
-    "@cebus/react-icon" "^0.0.2"
+    "@cebus/react-icon" "^0.0.3"
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-menu" "^9.0.0-rc.5"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
@@ -2075,19 +2075,19 @@
     "@storybook/react" "^6.4.15"
     "@storybook/theming" "^6.4.19"
 
-"@cebus/react-switch@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@cebus/react-switch/-/react-switch-0.0.2.tgz#9f28afe553de03acf799bec72113825788556bba"
-  integrity sha512-XKRntix0uHm2YnJ/aevGkrIu2+fTsvknCqYSs5zx8SYWX/LHG51IR/alBEgyR+Lh1on52bjJk8s85nUFdu0b7A==
+"@cebus/react-switch@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cebus/react-switch/-/react-switch-0.0.3.tgz#822d8fa25d348e1eb6c2b5f5bf0a06a2415ab165"
+  integrity sha512-eFp0yb1G8L5qpkKbSoStnYOQoMGbEA5ynpOuyE6Irm8TxXtA8yekn5M8CrRe+1t0PH3pM6P8UqsIQt87UwphzQ==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-table@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@cebus/react-table/-/react-table-0.0.4.tgz#a4426c7c42a6a507c046eec664eb2ab80fb33c24"
-  integrity sha512-5RrdTMM6ZIvviiETTIEj1EpmC/p/lBjK2RJL5Nknrba4q/JVtorprNU13EsGiVXAJ8YavEmJaL25DFNqMmoWKw==
+"@cebus/react-table@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cebus/react-table/-/react-table-0.0.5.tgz#60b88217467a3fadcb8ac686b1d1be66b4043b60"
+  integrity sha512-gGmY/P6amOSmMj6xGdsJe+Ka12vMOWwqkQgHXDTw8e9Iz7Gjsw5DqmMVFMbxotHDeFzeri2jB04HudzFeUuM5Q==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
@@ -2103,10 +2103,10 @@
     "@fluentui/react-utilities" "^9.0.0-rc.5"
     "@griffel/react" "^1.0.0"
 
-"@cebus/react-text@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cebus/react-text/-/react-text-0.0.1.tgz#5b04881fd9a45c0d6accea297b132b386847bad8"
-  integrity sha512-LQOZhVydA0m0PXIWuP+y/lLLvBSSKOxAV4CzaLfussT/L6xc5Nel+TzrA16XQeizJ5ndI1DFPBGi/MmrI0aEQg==
+"@cebus/react-text@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@cebus/react-text/-/react-text-0.0.2.tgz#6a95239905b574431c7932f9d88b26238b5f5d0f"
+  integrity sha512-4iDdVNo2WC6hx2ND77XcCdKSbs1C3oh6eh3r30lQy+kJ2mJi42UL3JeSlm0UOkRRBTu7HjpgL5US9TwamdVuaw==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-utilities" "^9.0.0-rc.5"
@@ -2124,10 +2124,10 @@
   dependencies:
     "@cebus/react-theme-generator" "^0.0.1"
 
-"@cebus/react-toolbar@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@cebus/react-toolbar/-/react-toolbar-0.0.4.tgz#d83e70eb4fb6146e8ca531bfdba949d88973d61c"
-  integrity sha512-bB9y7PLeYuO8cuJSDi96rX73UHt6uiGSvFJo3WcmCZRUqAREBH1ysHW9qwBcIOqB8KaEi+UJm/POeWeSnt/IGw==
+"@cebus/react-toolbar@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cebus/react-toolbar/-/react-toolbar-0.0.5.tgz#d32f8ba29e213d745d26976496e84e8f6d8a7962"
+  integrity sha512-r4rCpworQA3nlgcsQRVqoFX3NWYlg5wPRxy+1a7CaBwpsFgA8QNtb7Jp1QblNZEHWAQnMd3/T+PkXipF1x1CSw==
   dependencies:
     "@cebus/react-theme" "^0.0.1"
     "@fluentui/react-aria" "^9.0.0-rc.5"

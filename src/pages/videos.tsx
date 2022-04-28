@@ -8,6 +8,7 @@ import {
   Divider,
   Input,
   SearchIcon,
+  Grid,
   Text,
 } from "@cebus/react-components";
 import type { InputProps } from "@cebus/react-components";
@@ -59,15 +60,7 @@ const Videos: NextPage = () => {
                   />
                 </CardMedia>
                 <div style={{ width: "250px" }}>
-                  <Text
-                    weight="bold"
-                    style={{
-                      overflow: "hidden",
-                      display: "-webkit-box",
-                      ["-webkit-line-clamp" as any]: "2",
-                      ["-webkit-box-orient" as any]: "vertical",
-                    }}
-                  >
+                  <Text weight="bold" truncate={2}>
                     {item.snippet.title}
                   </Text>
                   <Body weight="thin">
@@ -90,18 +83,7 @@ const Videos: NextPage = () => {
         placeholder="Search videos"
       />
       <Divider />
-
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(250px, max-content))",
-          gridGap: "15px",
-          justifyContent: "center",
-          width: "100%",
-        }}
-      >
-        {generateVideos()}
-      </div>
+      <Grid contentSize={"250px"}>{generateVideos()}</Grid>
     </>
   );
 };

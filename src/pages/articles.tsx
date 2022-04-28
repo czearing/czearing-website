@@ -3,12 +3,13 @@ import type { NextPage } from "next";
 import { useQuery } from "react-query";
 import {
   Card,
-  Header3,
   Body,
   Stack,
   CardMedia,
   Divider,
   Input,
+  Text,
+  Grid,
   SearchIcon,
 } from "@cebus/react-components";
 import type { InputProps } from "@cebus/react-components";
@@ -36,30 +37,22 @@ const Articles: NextPage = () => {
         (item: any) =>
           item?.title?.toLowerCase().includes(inputValue.toLowerCase()) && (
             <Link href={item.link} passHref>
-              <Card style={{ maxWidth: "450px" }} onClick={() => null}>
-                <Body>
-                  <TimeAgo date={item.pubDate} />
-                </Body>
-                <Header3
-                  weight="bold"
-                  style={{
-                    overflow: "hidden",
-                    display: "-webkit-box",
-                    ["-webkit-line-clamp" as any]: "2",
-                    ["-webkit-box-orient" as any]: "vertical",
-                    height: "60px",
-                  }}
-                >
+              <Card style={{ width: "350px" }} onClick={() => null}>
+                <Text weight="bold" truncate={2} style={{ height: "45px" }}>
                   {item.title}
-                </Header3>
+                </Text>
                 <CardMedia>
                   <Image
                     src={item.thumbnail}
-                    height="220px"
-                    width="450px"
+                    height="130px"
+                    width="250px"
                     objectFit="cover"
                   />
                 </CardMedia>
+                <Body weight="thin">
+                  <TimeAgo date={item.pubDate} />
+                </Body>
+
                 <Stack>
                   {item.categories.map((category: string) => (
                     <Body>{category}</Body>
@@ -81,9 +74,9 @@ const Articles: NextPage = () => {
         placeholder="Search articles"
       />
       <Divider />
-      <Stack horizontalAlignment="center" grow>
+      <Grid contentSize="350px" horizontalAlignment="center">
         {generateMediumArticles()}
-      </Stack>
+      </Grid>
     </>
   );
 };
