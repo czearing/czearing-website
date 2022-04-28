@@ -40,7 +40,18 @@ const Articles: NextPage = () => {
                 <Body>
                   <TimeAgo date={item.pubDate} />
                 </Body>
-                <Header3 weight="bold">{item.title}</Header3>
+                <Header3
+                  weight="bold"
+                  style={{
+                    overflow: "hidden",
+                    display: "-webkit-box",
+                    ["-webkit-line-clamp" as any]: "2",
+                    ["-webkit-box-orient" as any]: "vertical",
+                    height: "60px",
+                  }}
+                >
+                  {item.title}
+                </Header3>
                 <CardMedia>
                   <Image
                     src={item.thumbnail}
@@ -70,7 +81,9 @@ const Articles: NextPage = () => {
         placeholder="Search articles"
       />
       <Divider />
-      {generateMediumArticles()}
+      <Stack horizontalAlignment="center" grow>
+        {generateMediumArticles()}
+      </Stack>
     </>
   );
 };
