@@ -65,6 +65,7 @@ export const Toolbar = () => {
       <Link href="music" passHref>
         <ToolbarButton as="a">Music</ToolbarButton>
       </Link> */}
+
       <Link href="videos" passHref>
         <ToolbarButton as="a">Videos</ToolbarButton>
       </Link>

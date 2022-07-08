@@ -3,8 +3,9 @@ import type { NextPage } from "next";
 import {
   Body,
   Header1,
-  Display,
+  CardMedia,
   Divider,
+  Display,
   Card,
   CardHeader,
   Stack,
@@ -26,6 +27,7 @@ import {
 } from "@cebus/react-components";
 import { makeStyles } from "@griffel/react";
 import Link from "next/link";
+import Image from "next/image";
 
 const useStyles = makeStyles({
   contactLink: {
@@ -48,8 +50,6 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Display>Hello world</Display>
-      <Divider />
       <Stack
         horizontalAlignment="center"
         style={{
@@ -71,6 +71,7 @@ const Home: NextPage = () => {
             music and art in my free time.
           </SubHeadline>
         </Card>
+
         <Card style={{ maxWidth: "500px", height: "calc(100% - 30px)" }}>
           <CardHeader header={<Header1>Contact information</Header1>} />
           <Stack wrap={false}>
@@ -210,22 +211,26 @@ const Home: NextPage = () => {
           </Stack>
         </Card>
       </Stack>
-      {/* <Divider />
+      <Divider />
       <Stack horizontalAlignment="center" vertical grow>
-        <Header1>My Projects</Header1>
+        <Display>My Projects</Display>
         <Stack>
-          <Card onClick={() => null}>
-            <CardMedia>
-              <Header1
-                color="white"
-                style={{ position: "absolute", zIndex: "1", padding: "10px" }}
-              >
-                Cebus
-              </Header1>
-              <Image src="/image/cebus.svg" width="250px" height="250px" />
-            </CardMedia>
-          </Card>
-          <Card onClick={() => null}>
+          <Link href={"https://github.com/cebus-org/cebus"} passHref>
+            <Card onClick={() => null}>
+              <Stack>
+                <CardMedia>
+                  <Image src="/image/cebus.svg" width="100px" height="100px" />
+                </CardMedia>
+                <Stack vertical style={{ maxWidth: "200px" }}>
+                  <Header1>Cebus</Header1>
+                  <Body wrap>
+                    A simple, fast, and accessible React component library.
+                  </Body>
+                </Stack>
+              </Stack>
+            </Card>
+          </Link>
+          {/* <Card onClick={() => null}>
             <CardMedia>
               <Header1
                 color="white"
@@ -235,9 +240,9 @@ const Home: NextPage = () => {
               </Header1>
               <Image src="/image/bountyBay.svg" width="250px" height="250px" />
             </CardMedia>
-          </Card>
+          </Card> */}
         </Stack>
-      </Stack> */}
+      </Stack>
     </>
   );
 };
