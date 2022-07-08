@@ -223,7 +223,7 @@ const Home: NextPage = () => {
                 </CardMedia>
                 <Stack vertical style={{ maxWidth: "200px" }}>
                   <Header1>Cebus</Header1>
-                  <Body wrap>
+                  <Body>
                     A simple, fast, and accessible React component library.
                   </Body>
                 </Stack>
