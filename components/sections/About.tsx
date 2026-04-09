@@ -6,7 +6,7 @@ export function About() {
       <h2 className={styles.heading}>About</h2>
       <div className={styles.prose}>
         <p>
-          I'm a software engineer at{' '}
+          I&apos;m a software engineer at{' '}
           <span className={styles.highlight}>Microsoft</span>, building UI for
           Microsoft 365.
         </p>
