@@ -1,0 +1,33 @@
+.dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  pointer-events: none;
+  z-index: 9999;
+  will-change: transform;
+  transition: opacity 0.2s ease;
+}
+
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-accent);
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.4;
+  will-change: transform;
+  transition: opacity 0.3s ease;
+}
+
+.dot.hidden,
+.ring.hidden {
+  opacity: 0;
+}
